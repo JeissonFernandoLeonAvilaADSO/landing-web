@@ -10,38 +10,282 @@
 
 <body>
   <header class="header">
-    <div class="header__logo">
-      <img src="imgs/logo.svg" alt="logo_landing">
+    <div class="header__cont">
+      <div class="header__logo">
+        <img src="imgs/logo.svg" alt="logo_landing">
+      </div>
+      <nav class="header__menu">
+        <ul>
+          <li><a class="header__listItem" href="#section1">Inicio</a></li>
+          <li><a class="header__listItem" href="#section2">Nosotros</a></li>
+          <li><a class="header__listItem" href="#section3">servicios</a></li>
+          <li><a class="header__listItem" href="#section5">Caracteristicas</a></li>
+          <li><a class="header__listItem" href="#section6">Planes</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="header__menu">
-      <ul>
-        <li><a class="header__listItem" href="#main">Inicio</a></li>
-        <li><a class="header__listItem" href="#">Nosotros</a></li>
-        <li><a class="header__listItem" href="#">servicios</a></li>
-        <li><a class="header__listItem" href="#">Caracteristicas</a></li>
-        <li><a class="header__listItem" href="#">Planes</a></li>
-        <li><a class="header__listItem" href="#">Comentarios</a></li>
-      </ul>
-    </nav>
+
   </header>
-  <main class="main" id="main">
-    <div class="main__card">
-      <h1 class="main___tittletext --font_sizexxl">Descarga ahora y encuentra a tu <b>alma gemela</b></h1>
-      <p class="main___bodytext">Acompaña tu <b>vida</b> con la mejor persona para tu <b>vida</b></p>
-      <div class="main__card --button_card">
-        <button class="main__button">
-          <img class="main__icon" src="imgs/CiPlayStore.svg" alt="playstorelogo">
-          Google Play
-        </button>
-        <button class="main__button">
-            <img class="main__icon" src="imgs/PhAppStoreLogoFill.svg" alt="appstorelogo">
+  <!-- <img class="Homescreen" src="imgs/Home Screen.svg" alt="">  -->
+  <main>
+
+    <section class="section section--marginAdt" id="section1">
+      <div class="section__card">
+        <h1 class="section__tittletext">Descarga ahora y encuentra a tu
+          <b>alma gemela</b>
+        </h1>
+        <p class="section__bodytext">Acompaña tu <b>vida</b> con la mejor persona para tu <b>vida</b></p>
+        <div class="section__card section__card--button_card">
+          <button class="section__button">
+            <img class="section__icon" src="imgs/icons/CiPlayStore.svg" alt="playstorelogo">
+            Google Play
+          </button>
+          <button class="section__button">
+            <img class="section__icon" src="imgs/icons/PhAppStoreLogoFill.svg" alt="appstorelogo">
             App Store
-        </button>
+          </button>
+        </div>
+      </div>
+      <div class="section__imgCont">
+        <img class="section__cardimg" src="imgs/image 1.svg" alt="img_relleno1">
+      </div>
+    </section>
+
+    <section class="section" id="section2">
+      <div class="section__card">
+        <h2 class="section__subtittletext section__subtittletext--icon">¿QUE PODEMOS DECIR DE LA APLICACION?<img
+            class="section__icon" src="imgs/icons/BiChatHeartFill.svg" alt=""></h2>
+        <p class="section__bodytext">¡¡¡Presta atencion!!!</p>
+        <div class="section__card section__card--subcardcont">
+          <article class="section__subcard">
+            <img src="imgs/icons/MdiHeartHalfFull.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Flechazo</h1>
+            <p class="section__bodytext">Con nuestro sistema de filtro de usuarios te daremos las mejores opciones de
+              pareja en base a tus gustos y
+              similitudes
+              con otras personas.</p>
+          </article>
+          <article class="section__subcard">
+            <img src="imgs/icons/PhShieldCheckDuotone.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Verificacion de datos</h1>
+            <p class="section__bodytext">Nosotros nos tomamos muy enserio la validacion de los datos para evitar estafas
+              virtuales e informacion
+              fraudulenta.</p>
+          </article>
+          <article class="section__subcard">
+            <img src="imgs/icons/MdiMapCheck.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Ubicación</h1>
+            <p class="section__bodytext">Teniendo en cuenta tu ubicacion te mostraremos las personas mas accesibles para
+              ti.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="section3">
+      <div class="section__card section__card--flex_sizemod">
+        <div class="section__imgCont">
+          <img src="imgs/imag1.png" alt="#">
+        </div>
+        <div class="section__sectcont">
+          <h1 class="section__tittletext section__tittletext--subcardColorSize">
+            ¡¡¡Apresúrate!!! Tu persona ideal te esta esperando
+          </h1>
+          <p class="section__bodytext section__bodytext--darktext">
+            Te mostramos que registrarse en nuestra aplicación es lo mas fácil del mundo. <b>¡¡¡Solamente 2 pasos y
+              listo!!!</b>
+          </p>
+          <button class="section__button">
+            <img class="section__icon" src="imgs/icons/MaterialSymbolsPlayCircle.svg" alt="playbtn">
+            Reproducir
+          </button>
+        </div>
+
+      </div>
+    </section>
+    <section class="section section--nobackground" id="section4">
+
+      <div class="section__card section__card--flex_sizemod">
+        <div class="section__sectcont">
+          <h1 class="section__tittletext section__tittletext--subcardColorSize">
+            Pon mucha atención a la variedad servicios que ofrecemos
+          </h1>
+          <ul class="section__bodytext">
+            <li class="section__Ptext section__Ptext--darktext"><img class="section__icon"
+                src="imgs/icons/CheckSymbol.svg" alt="#">Seguridad y privacidad total en tus datos no públicos.</li>
+            <li class="section__Ptext section__Ptext--darktext"><img class="section__icon"
+                src="imgs/icons/CheckSymbol.svg" alt="#">Un plan gratuito y uno pago para que se ajuste a tu bolsillo.
+            </li>
+            <li class="section__Ptext section__Ptext--darktext"><img class="section__icon"
+                src="imgs/icons/CheckSymbol.svg" alt="#">Un sistema de servicio al cliente 24 horas al dia.</li>
+          </ul>
+          <button class="section__button">
+            <img class="section__icon" src="imgs/icons/MaterialSymbolsPlayCircle.svg" alt="playbtn">
+            Reproducir
+          </button>
+        </div>
+        <div class="section__card section__card--subcardcont2">
+          <article class="section__subcard section__subcard--sizeMod">
+            <img src="imgs/icons/PhShieldCheckDuotone.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Emparejamiento</h1>
+            <p class="section__bodytext">Un sistema de Emparejamiento basado en un test de personalidad, gustos y
+              preferencias, que te conecta con personas
+              compatibles contigo</p>
+          </article>
+          <article class="section__subcard section__subcard--sizeMod">
+            <img src="imgs/icons/MdiMapCheck.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Chatea libremente</h1>
+            <p class="section__bodytext">Un chat ilimitado y gratuito con tus Contactos, donde puedes enviar mensajes de
+              texto, voz, fotos, videos y emojis</p>
+          </article>
+          <article class="section__subcard section__subcard--sizeMod">
+            <img src="imgs/icons/TablerMessage2Heart.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Consejeros</h1>
+            <Un class="section__bodytext">Un servicio de Consejos y sugerencias de expertos en relaciones, que te ayudan
+              a mejorar tu perfil, tu comunicación y tu confianza.</p>
+          </article>
+          <article class="section__subcard section__subcard--sizeMod">
+            <img src="imgs/icons/MdiHeartHalfFull.svg" alt="">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize">Eventos especiales</h1>
+            <p class="section__bodytext">Un servicio de Eventos para solteros, donde puedes asistir a actividades
+              divertidas y originales en tu ciudad y conocer a gente nueva.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section section--marginflexMod" id="section5">
+      <h1 class="section__tittletext section__tittletext--subtittlesection">Caracteristicas Geniales</h1>
+      <div class="section__card section__card--flex_sizemod">
+        <div class="section__imgCont">
+          <img src="imgs/prevphone1.png" alt="#">
+        </div>
+        <div class="section__sectcont section__sectcont--marginMod">
+          <h1 class="section__tittletext section__tittletext--subcardColorSize">
+            ¡¡¡Un registro super sencillo y rápido!!!
+          </h1>
+          <p class="section__bodytext section__bodytext--darktext">
+            Nos alegra que estés aquí. Sabemos que <b>tu tiempo es valioso</b>, por eso hemos diseñado un proceso de
+            registro <b>rápido y
+              sencillo</b> para ti.
+          </p>
+        </div>
+      </div>
+      <div class="section__card section__card--flex_sizemod">
+        <div class="section__sectcont section__sectcont--marginMod">
+          <h1 class="section__tittletext section__tittletext--subcardColorSize">
+            Una interfaz fácil de seguir
+          </h1>
+          <p class="section__Ptext section__Ptext--darktext">En la página principal, encuentras dos <b>secciones principales:</b></p>
+          <ul class="section__bodytext">
+            <li class="section__Ptext section__Ptext--darktext"><img class="section__icon" src="imgs/icons/starfour.svg"
+                alt="#"><b>"Posibles Coincidencias":</b> muestra perfiles con los que podrías hacer match</li>
+            <li class="section__Ptext section__Ptext--darktext"><img class="section__icon" src="imgs/icons/starfour.svg"
+                alt="#"><b>“Contactos": </b> lista a quienes ya hiciste match para iniciar conversaciones.
+            </li>
+          </ul>
+          <p class="section__Ptext section__Ptext--darktext">
+            La clave es <b>ser auténtico</b> y <b>disfrutar la experiencia</b>, ¡quién sabe, podrías encontrar a tu
+            <b>pareja ideal!</b>
+          </p>
+
+        </div>
+        <div class="section__imgCont">
+          <img src="imgs/prevphone2.png" alt="#">
+        </div>
+      </div>
+    </section>
+    <section class="section section--nobackground section--marginxxflexMod" id="section6">
+      <div class="section__card section__card--flex_sizemod2">
+        <h1 class="section__tittletext section__tittletext--subtittlesection">Planes</h1>
+        <section class="section__sectcont section__sectcont--flexdirMod">
+          <article class="section__subcard section__subcard--sizeMod2 section__subcard--background3">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize2">Plan Gratuito</h1>
+            <ul class="section__bodytext">
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/FaSolidMoneyBill.svg" alt="#">Servicios basicos de la aplicacion gratuitos
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/MaterialSymbolsWifiFind.svg" alt="#">Puedes encontrar y ser encontrado por
+                otros usuario
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/SolarChatRoundCallBold.svg" alt="#">Puedes chatear y hacer llamadas con
+                otros usuarios
+              </li>
+            </ul>
+          </article>
+          <article class="section__subcard section__subcard--sizeMod2 section__subcard--background4">
+            <h1 class="section__tittletext section__tittletext--subcardColorSize2">Plan Premium</h1>
+            <ul class="section__bodytext">
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/MaterialSymbolsGroups.svg" alt="#">Consejeros personalizados en diversidad
+                de horarios
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/BiBadge4kFill.svg" alt="#">La mejor resolucion de video en tus llamadas
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/RiCustomerService2Line.svg" alt="#">Priodidad a reportes y solucion de
+                incomodidades
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/FluentServerSurface16Filled.svg" alt="#">Un servicio al cliente privado y
+                mas eficiente
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/SolarStarFallBold.svg" alt="#">Una hermosa y resaltante insignea en tu
+                perfil
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/RiEmojiStickerFill.svg" alt="#">Emojis personalizados y personales
+              </li>
+              <li class="section__Ptext section__Ptext--lighttext"><img class="section__icon"
+                  src="imgs/icons/WhiteIcons/FluentStyleGuide20Filled.svg" alt="#">Una amplia variedad de estilos para
+                la aplicación
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      </div>
+    </section>
+    <section class="section section--center" id="section7">
+      <div class="section__card section__card--center">
+        <h1 class="section__tittletext section__tittletext--subcardColorSize">¿Que estas esperando?</h1>
+        <p class="section__bodytext"><b>Tu alma gemela podria estar esperando</b></p>
+        <div class="section__card section__card--button_card">
+          <button class="section__button">
+            <img class="section__icon" src="imgs/icons/CiPlayStore.svg" alt="playstorelogo">
+            Google Play
+          </button>
+          <button class="section__button">
+            <img class="section__icon" src="imgs/icons/PhAppStoreLogoFill.svg" alt="appstorelogo">
+            App Store
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer__cont">
+      <div>
+        <p class="footer__text"><b>examplegmail@example.com</b></p>
+        <p class="footer__text"><b>+57 9889998998</b></p>
+        <div>
+          <img class="footer__img footer__img--sizeMod" src="imgs/FB.png" alt="Facebook">
+          <img class="footer__img footer__img--sizeMod" src="imgs/IG.png" alt="Instagram">
+          <img class="footer__img footer__img--sizeMod" src="imgs/X.png" alt="X">
+          <img class="footer__img footer__img--sizeMod" src="imgs/YT.png" alt="YouTube">
+        </div>
+      </div>
+      <div class="footer__logo">
+        <img class="footer__img" src="imgs/logo.svg" alt="logo_landing">
+        <p class="footer__text">Acompaña tu <b>vida</b> con la mejor persona para tu <b>vida</b></p>
       </div>
     </div>
-    <div class="main__imgCont">
-      <img class="main__cardimg" src="imgs/image 1.svg" alt="img_relleno1">
-    </div>
-  </main>
+  </footer>
 </body>
+
 </html>
